@@ -2,8 +2,8 @@ import java.sql.SQLException;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Meny {
-    public void menyRun() {
+public class Menu {
+    public void menuRun() {
         DatabaseManager dbManager = new DatabaseManager();
         dbManager.connect();
 
